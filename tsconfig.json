@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    //"module": "AMD",
+    //"outFile": "./dist/main.js",
+    "lib": [ "ESNext", "DOM" ],
+    "target": "ES2017",
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "baseUrl": "src",
+    "sourceMap": false,
+    "declaration": true,
+    "strict": true,
+    "noEmit": false,
+    "newLine": "LF",
+    "types": [ "screeps", "node", "mocha" ],
+    "removeComments": true,
+    "noImplicitReturns": true,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "experimentalDecorators": true
+  },
+  "include": [ "./src/**/*.ts" ],
+  "exclude": [ "node_modules", "dist", "./src/test" ]
+}

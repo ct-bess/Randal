@@ -1,4 +1,4 @@
-# Randal: My Rambunctious Screeps AI
+# Randal: My Paleolithic Screeps AI
 
 The theme of Randal is: *Chronobauble on the floor. What will he do????*
 
